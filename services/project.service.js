@@ -106,7 +106,7 @@ const calculateProjectImpacts = async (req, projectId) => {
   }).populate({
     path: 'productID',
     model: 'Product',
-    select: 'name code images co2Emission co2EmissionRawMaterials co2EmissionFromProcesses materials productManufacturingProcess'
+    select: 'name code countryOfOrigin description weight countryOfOrigin category subCategory images co2Emission co2EmissionRawMaterials co2EmissionFromProcesses materials productManufacturingProcess'
   });
   
   // Initialize totals
@@ -151,6 +151,11 @@ const calculateProjectImpacts = async (req, projectId) => {
     return {
       productName: product.name,
       productCode: product.code,
+      description: product.description || '',
+      category: product.category || '',
+      subCategory: product.subCategory || '',
+      weight: product.weight || 0,
+      countryOfOrigin: product.countryOfOrigin || '',
       materials: product.materials || [],
       productManufacturingProcess: product.productManufacturingProcess || [],
       co2EmissionRawMaterials: materialsImpact,
