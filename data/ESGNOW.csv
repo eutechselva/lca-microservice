@@ -184,7 +184,9 @@ India,Metal,Steel Sheet,2.58,EPD,Proxy,A specific emission factor was applied ba
 
  ✅ Suitable for structural frames and under-structure components in furniture and interior fit-outs due to its high strength, availability, and cost-effectiveness. It is ideal for applications where structural integrity is prioritized over aesthetics or surface finish. 
 ❌ Not suitable for catering equipment or decorative finishes without additional treatment. In catering equipment, hygiene and corrosion resistance are critical, which low-alloyed, hot rolled steel lacks unless coated or treated. For decorative finishes, the surface aesthetics of hot rolled steel may not meet the desired quality without further processing such as polishing or painting."
-Global,Metal,Powdercoat Steel,3.50,Ecoinvent,Direct,A specific emission factor was applied based on a direct match to the selected material.,"market for powder coat, steel","Powdercoat Steel
+Global,Metal,Powdercoat Steel,2.34,Ecoinvent,Direct,A specific emission factor was applied based on a direct match to the selected material.,"market for powder coat, steel - GLO - powder coat, steel
++
+market for steel, low-alloyed, hot rolled","Powdercoat Steel
 
 ✅ Suitable for furniture and interior components where enhanced corrosion resistance, durability, and a clean finish are desired. Ideal for high-traffic areas or environments with moisture exposure, such as office furniture, public seating, and bathroom fixtures. 
 ❌ Not suitable for food-contact surfaces in catering equipment due to potential hygiene concerns. The powder coating may degrade under high heat or abrasive cleaning, making it unsuitable for surfaces that require frequent sanitation or direct food contact, such as countertops, cutting boards, or cooking utensils."

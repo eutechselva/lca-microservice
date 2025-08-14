@@ -498,7 +498,7 @@
         "countryOfOrigin": "GLO",
         "materialClass": "Metal",
         "specificMaterial": "Powdercoat Steel",
-        "EmissionFactor": 3.5,
+        "EmissionFactor": 2.34,
         "EF_Source": "Ecoinvent",
         "Source_Dataset_Name": "market for powder coat, steel",
         "EF_Type": "Direct",
